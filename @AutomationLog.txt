@@ -1,0 +1,6 @@
+2021-04-04 18:21:47.851 auto_calc.py[16] <module> -> Find Control Timeout: {Name: '8', ControlType: ButtonControl}
+2021-04-04 18:22:08.419 auto_calc.py[16] <module> -> Find Control Timeout: {Name: '8', ControlType: ButtonControl}
+2021-04-04 18:31:16.962 auto_notepad.py[26] <module> -> Find Control Timeout: {Name: '记事本', ControlType: WindowControl}
+2021-04-04 18:31:35.773 auto_notepad.py[25] <module> -> Find Control Timeout: {Name: '记事本', ControlType: WindowControl}
+2021-04-04 18:31:48.490 auto_notepad.py[25] <module> -> Find Control Timeout: {Name: '记事本', ControlType: WindowControl}
+2021-04-04 21:10:18.415 auto_wechat.py[14] <module> -> Find Control Timeout: {Name: '发送', ControlType: ButtonControl}

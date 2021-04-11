@@ -1,0 +1,20 @@
+import time
+import subprocess,uiautomation
+file="C:\\Users\\王宇\\Desktop\\开题报告提纲.PNG"
+subprocess.Popen("C:\Program Files (x86)\Tencent\WeChat\WeChat.exe")
+wechat=uiautomation.WindowControl(searchDepth=1,Name="微信")
+wechat.MoveToCenter()
+# wechat.ButtonControl(Name="通讯录").Click()
+# search_people=wechat.EditControl(Name="搜索")
+# search_people.Click()
+# search_people.SendKeys('天道酬勤{enter}')
+edit_message=wechat.EditControl(Name="输入")
+edit_message.Click()
+edit_message.SendKeys("hello{enter}")
+# wechat.ButtonControl(Name="发送(S)").Click()
+wechat.ButtonControl(Name="发送文件").Click()
+file_edit=wechat.EditControl(Name="文件名(N):")
+file_edit.Click()
+file_edit.SendKeys(file+"{enter}")
+edit_message.SendKeys("{enter}")
+# wechat.ButtonControl(Name="发送(S)").Click()
